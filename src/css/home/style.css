@@ -1,7 +1,17 @@
+:root {
+  --main-color: #181818;
+  --link-color: #666666;
+  --text1: #999999;
+  --highlight-text: #333333;
+  --input-text: #555555;
+  --white-color: #FFFFFF;
+  --points-list: #CCCCCC;
+  --line-input: #D9D9D9;
+}
+
+
 body {
-  background-image: url("../../images/Home/IFSP_VTP_BSI_divulgacao_feed_facebook_modelo2_retificado_banner.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: var(--main-color)
 }
 
 
@@ -10,22 +20,10 @@ a {
   text-decoration: none; /* Remove sublinhado dos links */
 }
 
-a:hover {
-  color: red; /* Altera a cor do link quando o mouse passa por cima */
-  text-decoration: underline; /* Adiciona sublinhado ao link quando o mouse passa por cima */
-}
-
-a:active {
-  color: green; /* Altera a cor do link quando está ativo */
-}
-
-a:visited {
-  color: purple; /* Altera a cor do link já visitado */
-}
-
 
 h1 {
   text-align: center;
+  color: var(--white-color);
 }
 
 form {
@@ -59,9 +57,11 @@ button[type="submit"] {
 h2 {
   text-align: center;
   margin-left: 50px;
+  color: var(--white-color);
 }
 
 ul {
+  margin-left: 30%;
   margin-left: 30%;
 }
 
@@ -70,6 +70,6 @@ li {
   text-align: center;
   margin: 10px 0;
   padding: 10px;
-  background-color: lightgray;
+  background-color: var(--points-list);
   width: 50%;
 }
