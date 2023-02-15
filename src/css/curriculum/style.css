@@ -5,17 +5,18 @@ h1 {
 
 
 ul {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+  margin-left: 35%;
+  max-width: 450px;
+  display:grid;
+  flex-flow: row wrap;
+  justify-content: space-between;
 } 
 
 li {
-  width: 500px;
-  text-align: justify;
+
+  text-align: center;
+  margin-top: 7px;
+  padding-bottom: 3px;
 
 }
 
