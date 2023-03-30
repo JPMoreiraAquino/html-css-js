@@ -1,75 +1,83 @@
-:root {
-  --main-color: #181818;
-  --link-color: #666666;
-  --text1: #999999;
-  --highlight-text: #333333;
-  --input-text: #555555;
-  --white-color: #FFFFFF;
-  --points-list: #CCCCCC;
-  --line-input: #D9D9D9;
-}
-
-
-body {
-  background-color: var(--main-color)
-}
-
-
-a {
-  color: blue; /* Cor padrão dos links */
-  text-decoration: none; /* Remove sublinhado dos links */
-}
-
-
-h1 {
-  text-align: center;
-  color: var(--white-color);
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 50px 0;
-}
-
-label {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-input[type="text"] {
-  padding: 10px;
-  font-size: 16px;
-  width: 300px;
-  margin-bottom: 20px;
-}
-
-button[type="submit"] {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: lightblue;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
-h2 {
-  text-align: center;
-  margin-left: 50px;
-  color: var(--white-color);
+body{
+  font-family: arial, sans-serif;
+  background: #ccc;
+  margin: 0;
 }
 
 ul {
-  margin-left: 30%;
-  margin-left: 30%;
+  margin-left: 80%;
 }
 
 li {
-  list-style-type: none;
-  text-align: center;
-  margin: 10px 0;
-  padding: 10px;
-  background-color: var(--points-list);
-  width: 50%;
+  display: inline-block;
+  list-style: none;
+  padding: 20px;
+  background: rgba(0,0,0,0.8);
+
+  vertical-align: top;
+  border: 1px solid white;
 }
+
+.bannerprincipal nav a {
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+}
+
+.bannerprincipal{
+  background-image: url(../../images/home/bcg1.jpg);
+  height: 500px;
+  background-position: right center;
+  background-size: cover;
+}
+
+.nomes-centrais-banner{
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+}
+
+.nomes-centrais-banner h1{
+  text-transform: uppercase;
+  font-size: 46px;
+  text-shadow: 3px 3px 2px black;
+}
+
+main{
+  width: 80%;
+  margin: auto;
+}
+
+.section-principal{
+  background-color: white;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.bcg-header{
+  border-bottom: solid 2px #ccc;
+  padding: 10px;
+  background: #eee;
+}
+
+.bcg-header h2{
+  margin: 0;
+}
+
+.rodape{
+  height: 80px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  background: black;
+  line-height: 80px;
+}
+
+.card {
+  display: inline-block;
+  width: 33%;
+  font-size: 16px; 
+  vertical-align: top;
+}
+

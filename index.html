@@ -1,25 +1,70 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Atividades Aleatórias</title>
-    <link rel="stylesheet" href="./src/css/home/style.css">
-  </head>
-  <body>
-    <h1>Activities</h1>
-    <h2>College activities </h2>
-    <ul id="activity-list">
-      <li><a href="src/pages/curriculumvitae.html"><b>Curriculum Vitae</b></a></li>      
-    </ul>
 
-    <h2>Others activities</h2>
+<!doctype html>
+<!--Meu comentário-->
+<html lang="pt-br">
+    <head>
+        <title>Página de Exemplo - Estrutura Básica</title>
+        <meta charset="utf-8"> 
+        <meta name="author" content="Daniel Sales">
+        <meta name="description" content="Curso de Sistemas de Informação da UniCatólica">
+        <meta name="keywords" content="Tecnologia, html, css, javascrip">
+        
+        <link rel="stylesheet" href="src/css/home/style.css">
+        
+    </head>
+    
+    <body>
+        <div id="principal">
+            <header class="bannerprincipal">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="https://github.com/jpmoreiradev/JPMoreiradev" target="_blank">Quem Sou Eu</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="nomes-centrais-banner">
+                   <h1>Programação para Web</h1> 
+                    <p>Aprenda sobre Desenvolvimento Web</p>
+                </div>
+            </header>
+            
+            <main>
+                <section class="section-principal">
+                    <div class="card">
+                        <img src="src/images/home/html5.jpg"  alt="">
+                        <br>
+                        <a href="src/pages/curriculumvitae.html">Projetos Básico</a>
 
-    <ul id="activity-list">
-      <li><a href="src/pages/todoList.html"><b>TodoList</b></a></li>
-      <li><a href="src/pages/login.html"><b>Login</b></a></li>
-      
-    </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="src/images/home/python.jpg" alt="">
+                        <br>
+                        <a href="src/pages/todoList.html">Projetos Intermediário</a>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="src/images/home/css3.jpg" alt="">
+                        <br>
+                        <a href="src/pages/login.html">Projetos Avançado</a>
+                    </div>
+                </section>
+                
+                <section class="section-principal">
+                    <article>
+                        <header class="bcg-header"><h2>Título do Article</h2></header>
+                        <p>Parágrafo 1</p>
+                        <p>Parágrafo 2</p>
+                        <p>Parágrafo 3</p>
+                    </article>
+                </section>
+            </main>
+            
+            <footer class="rodape">
+                <p>Copyright &copy; 2023</p>
+            </footer>
+        </div>
+    </body>
 
-    <script src="./src/js/home/script.js"></script>
-  </body>
 </html>
